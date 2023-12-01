@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    font-size: 100px;
+    padding: 15px;
+    margin-top: 300px;
+}
+
+.topPage img{
+    margin: auto;
+    display: block;
+    padding-top: 125px;
+    padding-bottom: 125px;
+    width: 50%;
+}
