@@ -21,7 +21,8 @@
     margin: auto;
     display: block;
     height: 48px;
-    padding: 0 40px 0 40px;
+    padding: 0 50px 0 150px;
+    border-right: solid 1px gray;
 }
 
   
@@ -55,11 +56,7 @@
     margin: 6px 0;
     border-radius: 4px;
     white-space: nowrap;
-  }
-  
-  header > ul > li > ul {
-    height: 0; /* 子ページ一覧は高さを 0 にして非表示. */
-    overflow: hidden; /* はみ出した分を非表示. */
+    margin-left: 30px;
   }
 
   /*カテゴリ名にホバーした時に背景色にハイライトを付ける*/
@@ -67,61 +64,11 @@
     background-color: rgba(0,0,0,.075);
   }
 
-  header > ul > li:hover > ul {
-    height: auto;
-    padding: 6px 0;
-  }
-
-  header > ul > li > ul {
-    list-style: none;
-    padding: 0;
-    height: 0; /* 子ページ一覧は高さを 0 にして非表示. */
-    overflow: hidden; /* はみ出した分を非表示. */
-    background-color: #fff ;
-    box-shadow: 0 4px 8px rgba(0,0,0,.3);
-    border-radius: 4px;
-  }
-  
-  header > ul > li > ul > li,      /* <- <li>~~~</li>        に対応. */
-  header > ul > li > ul > a > li { /* <- <a><li>~~~</li></a> に対応. */
-    cursor: pointer; /* マウスカーソルを指の形に変更. */
-    height: 32px;
-    line-height: 20px;
-    padding: 6px 12px;
-    font-size: 18px;
-    white-space: nowrap; /* 長いテキストの自動改行を禁止. */
-  }
-  header > ul > li > ul > li:hover,      /* <- <li>~~~</li>        に対応. */
-  header > ul > li > ul > a > li:hover { /* <- <a><li>~~~</li></a> に対応. */
-    background-color: rgba(0,0,0,.075);
-  }
-  
-  header > ul > li > ul > a {
-    color: inherit; /* リンクテキストの色を通常テキストと同じにする. */
-    text-decoration: none;
-  }
-
   header > ul > li {
     position: relative; /* relative は通常の位置を基準にする. */
     padding: 0 6px;
   }
   
-  header > ul > li > ul {
-    position: absolute; /* <-　absolute は祖先要素のうち position が static (初期値) 以外に設定されている要素の左上を基準にする. この場合親要素の header > ul > li の左上が基準となる. */
-    top: 42px; /* <- header > ul > li の左上から, margin-top の 6px と span の高さの合計 42px だけ下にずらす. つまりheader > ul > li　> span の底辺とこの ul の上辺が接する. */
-    list-style: none;
-    padding: 0;
-    height: 0;
-    overflow: hidden;
-    background-color: #fff ;
-    box-shadow: 0 4px 8px  rgba(0,0,0,.3);
-    border-radius: 4px;
-  }
-
-  @media screen and (max-width: 600px) {
-    
-  }
-
   a{
     color: inherit;
     font-weight: bold;
@@ -146,15 +93,14 @@ h2{
 
 h4{
   text-align: center;
-  margin-top: -15px;
+  margin-top: -20px;
   font-size: 20px;
   color: cornflowerblue;
 }
 
 p{
-  text-align: center;
-  font-size: 20px;
-  margin: 30px;
+  font-size: 18px;
+  margin: 20px;
   line-height: 300%;
 }
 
@@ -166,4 +112,18 @@ h3{
   padding: 10px;
   text-decoration: underline;
   text-decoration-color: yellow;
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Freepic img{
+  width: 350px;
+}
+
+.center{
+  text-align: center;
 }
