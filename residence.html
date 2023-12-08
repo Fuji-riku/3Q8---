@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/residence.css">
 </head>
-<header>
+<header class="pc">
   <ul> <!-- 目次. -->
-    <div class="logo">
+    <div class="titleLogo">
       <img src="img/World connected GH.-ロゴ_アートボード 1-11.png" alt="">
     </div>
      <li>
@@ -20,9 +20,9 @@
      </li>
      <li>
       <span><a href="community.html">コミュニティ</a></span>
-      <li>
-        <span><a href="international.html">国際交流</a></span>
-      </li>
+     </li>
+     <li>
+      <span><a href="international.html">国際交流</a></span>
      </li>
      <li>
       <span><a href="restaurant.html">レストラン</a></span>
@@ -31,6 +31,40 @@
       <span><a href="residence.html">住居探しサポート</a></span>
      </li>
   </ul>
+</header>
+<header class="sp">
+  <div class="titleLogo">
+    <img src="img/World connected GH.-ロゴ_アートボード 1-11.png" alt="">
+  </div>
+
+  <div class="headerSubtitle">
+    <p>
+      多文化ゲストハウス
+    </p>
+  </div>
+
+  <div class="nav">
+
+    <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
+    <input id="drawer_input" class="drawer_hidden" type="checkbox">
+
+    <!-- ハンバーガーアイコン -->
+    <label for="drawer_input" class="drawer_open"><span></span></label>
+
+    <!-- メニュー -->
+    <nav class="nav_content">
+      <ul class="nav_list">
+        <img src="img/World connected GH.-ロゴ_アートボード 1-11.png" alt="">
+        <li class="nav_item"><a href="index.html">目次</a></li>
+        <li class="nav_item"><a href="concept.html">コンセプト</a></li>
+        <li class="nav_item"><a href="community.html">コミュニティ</a></li>
+        <li class="nav_item"><a href="international.html">国際交流</a></li>
+        <li class="nav_item"><a href="restaurant.html">レストラン</a></li>
+        <li class="nav_item"><a href="residence.html">住居探しサポート</a></li>
+      </ul>
+    </nav>
+
+  </div>
 </header>
 <body>
   <article>
