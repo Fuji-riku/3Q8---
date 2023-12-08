@@ -1,13 +1,27 @@
-.concept ul{
-    font-size: 25px;
-    width: fit-content;
-    border: 5px dashed slategrey;
-    margin: auto;
-    margin-bottom: 60px;
-    padding: 40px 60px 40px 60px;
-    border-radius: 30px;
+.link a{
+    color: inherit;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 120px;
+    padding: 10px;
+    border: black double 10px;
+    border-radius: 10px;
+    background-color: #fff;
 }
 
-.concept li{
-    padding: 10px;
+.concept p{
+    font-size: 20px;
+}
+
+.redDesign{
+    background-color: darkred;
+    padding: 50px;
+    margin: 30px;
+}
+
+.redDesign p{
+    color: #fff;
+    margin-top: -10px;
+    font-weight: bold;
 }
