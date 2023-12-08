@@ -9,20 +9,3 @@
     border-radius: 10px;
     background-color: #fff;
 }
-
-.concept p{
-    font-size: 20px;
-}
-
-.redDesign{
-    background-color: darkred;
-    padding: 50px;
-    margin: 30px;
-    border-radius: 10px;
-}
-
-.redDesign p{
-    color: #fff;
-    margin-top: -10px;
-    font-weight: bold;
-}
