@@ -10,6 +10,22 @@
     background-color: #fff;
 }
 
+.checkIcon{
+    margin-bottom: -8px;
+    padding-right: 10px;
+  }
+
+@media screen and (max-width:600px) {
+  .link a{
+    font-size: 12px;
+    margin: 0;
+  }
+
+  .checkIcon{
+    width: 30px;
+  }
+}
+
 .redDesign p{
     margin-bottom: 25px;
 }

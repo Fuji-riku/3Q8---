@@ -1,10 +1,3 @@
-h1{
-    text-align: center;
-    font-size: 100px;
-    padding: 15px;
-    margin-top: 300px;
-}
-
 .topPage{
     margin-bottom: 40px;
 }
@@ -43,4 +36,18 @@ h1{
 .about > .document p{
   margin-top: -5px;
   font-size: 12px;
+  line-height: 100%;
+}
+
+@media screen and (max-width:600px) {
+  .subtitle1{
+    font-size: 30px;
+  }
+  .subtitle2{
+    font-size: 20px;
+  }
+
+  .about p{
+    font-size: 16px;
+  }
 }
