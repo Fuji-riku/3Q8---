@@ -50,4 +50,16 @@
   .about p{
     font-size: 16px;
   }
+
+  .document{
+    text-align: center;
+  }
+
+  .document p{
+    padding-top: 10px;
+  }
+
+  .Freepic{
+    text-align: center;
+  }
 }
