@@ -9,7 +9,7 @@
     display: none;
   }
 
-  @media screen and (max-width:600px) {
+  @media screen and (max-width:800px) {
     .pc{
       display: none;
     }
@@ -88,22 +88,26 @@
     text-decoration: none;
   }
 
-  @media screen and (max-width:600px) {
+  @media screen and (max-width:800px) {
     .header-flex{
       display: flex;
-      justify-content: center;
+      justify-content: space-between;
       align-items: center;
     }
 
     .headerSubtitle p{
       font-size: 20px;
       font-weight: bold;
-      margin: 0 15px;
     }
     .titleLogo img{
       height: 36px;
       margin: 6px 0;
-      padding: 0 10px;
+      border-right: none;
+      padding: 0 0 0 10px;
+    }
+
+    .nav{
+      padding-right: 5px;
     }
 
     /* チェックボックスを非表示にする */
@@ -276,7 +280,7 @@ h3{
   padding: 0;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:800px) {
   h2{
     font-size: 25px;
     margin: 0;
