@@ -1,51 +1,51 @@
-.topPage {
-  margin-bottom: 40px;
+.topPage{
+    margin-bottom: 40px;
 }
 
-.topPage img {
-  margin: auto;
-  display: block;
-  padding-top: 50px;
-  width: 50%;
+.topPage img{
+    margin: auto;
+    display: block;
+    padding-top: 50px;
+    width: 50%;
 }
 
-.topPage p {
-  text-align: center;
-  line-height: 150%;
-  margin: 0;
-  padding: 0;
+.topPage p{
+    text-align: center;
+    line-height: 150%;
+    margin: 0;
+    padding: 0;
 }
 
-.subtitle1 {
-  font-weight: bold;
-  font-size: 50px;
+.subtitle1{
+    font-weight: bold;
+    font-size: 50px;
 }
 
-.subtitle2 {
-  font-size: 40px;
+.subtitle2{
+    font-size: 40px;
 }
 
-.about p {
-  font-size: 20px;
+.about p{
+    font-size: 20px;
 }
 
-@media screen and (max-width: 800px) {
-  .subtitle1 {
+@media screen and (max-width:800px) {
+  .subtitle1{
     font-size: 30px;
   }
-  .subtitle2 {
+  .subtitle2{
     font-size: 20px;
   }
 
-  .about p {
+  .about p{
     font-size: 16px;
   }
 
-  .document {
+  .document{
     text-align: center;
   }
 
-  .Freepic {
+  .Freepic{
     text-align: center;
   }
 }
