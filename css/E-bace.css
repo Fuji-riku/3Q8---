@@ -99,7 +99,7 @@
     }
 
     .headerSubtitle p{
-      font-size: 20px;
+      font-size: 15px;
       font-weight: bold;
     }
     .titleLogo img{
@@ -200,7 +200,7 @@
 }
 
 .nav_item a{
-  font-size: 30px;
+  font-size: 20px;
   color: inherit;
   font-weight: bold;
   text-decoration: none;
@@ -209,7 +209,7 @@
 .nav_list > li {
   width: fit-content;
   margin: auto;
-  padding: 20px;
+  padding: 15px;
 }
   }
 
@@ -312,7 +312,7 @@ h3{
   }
 
   .Freepic img{
-    width: 50%;
+    width: 60%;
     margin: 0;
   }
 
