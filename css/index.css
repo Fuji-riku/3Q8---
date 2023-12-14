@@ -29,16 +29,6 @@
     font-size: 20px;
 }
 
-.document img{
-    width: 50%;
-}
-  
-.about > .document p{
-  margin-top: -5px;
-  font-size: 12px;
-  line-height: 100%;
-}
-
 @media screen and (max-width:800px) {
   .subtitle1{
     font-size: 30px;
@@ -53,14 +43,6 @@
 
   .document{
     text-align: center;
-  }
-
-  .document img{
-    width: 70%;
-  }
-
-  .document p{
-    padding-top: 10px;
   }
 
   .Freepic{
