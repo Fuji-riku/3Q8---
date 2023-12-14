@@ -64,7 +64,7 @@
     display: inline-block;
     height: 36px;
     line-height: 36px;
-    font-size: 20px;
+    font-size: 18px;
     padding: 0 12px;
     margin: 6px 15px 0 15px;
     border-radius: 4px;
@@ -81,7 +81,7 @@
     padding: 0 6px;
   }
   
-  header > ul li > span > a{
+  header > ul > li > span > a{
     color: inherit;
     font-weight: bold;
     text-decoration: none;
