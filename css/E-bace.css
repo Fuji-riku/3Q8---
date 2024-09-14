@@ -88,7 +88,7 @@
   }
 
   .language{
-    border-right: solid 1px gray;
+    border-left: solid 1px gray;
   }
 
   @media screen and (max-width:800px) {
@@ -281,6 +281,10 @@ h3{
   font-weight: bold;
   margin: 0;
   padding: 0;
+}
+
+.document img ,.introduction img{
+  width: 50%;
 }
 
 @media screen and (max-width:800px) {
